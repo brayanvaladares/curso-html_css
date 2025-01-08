@@ -1,0 +1,65 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: montserrat;
+}
+
+.grupo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.esquerda {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  font-family: Krona One;
+  line-height: 3rem;
+  max-width: 550px;
+}
+
+.titulo span {
+  color: #22d4fd;
+}
+
+.texto-inicial {
+  line-height: 36px;
+  font-size: 22px;
+  text-align: justify;
+  width: 550px;
+  max-height: 100;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 28px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 21px 90px;
+  border-radius: 16px;
+  background: #22d4fd;
+}
+
+a:hover {
+  background: #1a9cb7;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  height: 480px;
+  width: 420px;
+}
