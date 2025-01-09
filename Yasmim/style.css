@@ -3,5 +3,69 @@
   padding: 0;
 }
 body {
+  color: white;
+  background-color: black;
   font-family: minecraft standard;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.titulo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.titulo p {
+  color: #878787;
+}
+
+.creeper {
+  fill: white;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding-top: 30px;
+}
+.container-barraLateral {
+  display: flex;
+  justify-content: center;
+  background-color: #111111;
+  border-radius: 7px;
+  width: 220px;
+  height: 560px;
+  max-width: 250p;
+  position: relative;
+}
+.scriptsujo10 {
+  position: absolute;
+  height: 150px;
+  width: auto;
+  top: -95px;
+  left: -80px;
+}
+
+.container-principal {
+  display: flex;
+  border-radius: 7px;
+  justify-content: center;
+  background-color: #111111;
+  width: 928px;
+  height: 560px;
+}
+
+.principal-mensagem {
+  margin-top: 15px;
+}
+
+.barraLateral-mensagem {
+  margin-top: 15px;
 }
